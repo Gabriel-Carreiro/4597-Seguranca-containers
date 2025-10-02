@@ -19,7 +19,7 @@ jobs:
       with:
         command: quickview
         # Image to analyze
-        image: leonardosartorello/seguranca_docker:${{ github.run_number }}
+        image: gabrielfleming/seguranca_docker:${{ github.run_number }}
         # Ignore vulnerabilities from base image
         ignore-base: false
         # Docker Hub User
