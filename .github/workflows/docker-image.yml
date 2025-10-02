@@ -23,6 +23,6 @@ jobs:
         # Ignore vulnerabilities from base image
         ignore-base: false
         # Docker Hub User
-        dockerhub-user: $ {{ secrets.DOCKERHUB_USER }}
+        dockerhub-user: ${{ secrets.DOCKERHUB_USER }}
         # Docker Hub PAT
-        dockerhub-password: $ {{ secrets.DOCKERHUB_PASS }}
+        dockerhub-password: ${{ secrets.DOCKERHUB_PASS }}
