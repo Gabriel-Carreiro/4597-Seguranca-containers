@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:25.10
 
 EXPOSE 8000
 
